@@ -6,8 +6,20 @@ public class Operadores {
         num1 = 5;
         num2 = 6;
 
-        String resultado = num1==num2 ? "verdadeiro" : "falso";
+        boolean simNao = num1 == num2;
 
-        System.out.println(resultado);
+        System.out.println("Numero1 é igual a numero2? " + simNao);
+
+        simNao = num1 != num2;
+
+        System.out.println("Numero1 é diferente de numero2? " + simNao);
+
+        simNao = num1 > num2;
+
+        System.out.println("Numero1 é maior que numero2? " + simNao);
+
+        simNao = num1 < num2;
+
+        System.out.println("Numero1 é menor que numero2? " + simNao);
     }
 }
