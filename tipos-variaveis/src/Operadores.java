@@ -1,12 +1,13 @@
 public class Operadores {
     
     public static void main(String[] args) {
-        int numero = 5;
+        int num1, num2;
 
-        numero = -numero; // Operador unario de valor negativo 
-        System.out.println( numero); 
+        num1 = 5;
+        num2 = 6;
 
-        numero = + numero * -1; // Como torna o numero positivo novamente
-        System.out.println(numero);
+        String resultado = num1==num2 ? "verdadeiro" : "falso";
+
+        System.out.println(resultado);
     }
 }
